@@ -26,6 +26,7 @@ to this
 
 ## How to Use It?
 In your nodejs file that is in ROOT of your project require this module and run it. Usually `app.js` (for windows, no pwd in windows).
+
 `npm i -S color-stacktrace`
 ....
 
