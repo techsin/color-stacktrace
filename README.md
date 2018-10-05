@@ -23,3 +23,12 @@ Error: test
    ```
 to this
 ![alt text](https://raw.githubusercontent.com/techsin/color-stacktrace/master/Capture.JPG)
+
+## How to Use It?
+In your nodejs file that is in ROOT of your project require this module and run it. Usually `app.js`
+
+```
+const colorTrace = require('color-stacktrace');
+colorTrace.init(Error);
+//Error is a native Error Class, not a place holder for something.
+```
