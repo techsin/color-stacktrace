@@ -22,3 +22,4 @@ Error: test
     at Zlib.processCallback (zlib.js:576:8)
    ```
 to this
+![alt text](https://raw.githubusercontent.com/techsin/color-stacktrace/master/Capture.JPG)
