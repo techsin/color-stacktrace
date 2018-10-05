@@ -25,10 +25,15 @@ to this
 ![alt text](https://raw.githubusercontent.com/techsin/color-stacktrace/master/Capture.JPG)
 
 ## How to Use It?
-In your nodejs file that is in ROOT of your project require this module and run it. Usually `app.js`
+In your nodejs file that is in ROOT of your project require this module and run it. Usually `app.js` (for windows, no pwd in windows).
+`npm i -S color-stacktrace`
+....
 
 ```
 const colorTrace = require('color-stacktrace');
 colorTrace.init(Error);
 //Error is a native Error Class, not a place holder for something.
 ```
+
+## How does it work?
+https://github.com/v8/v8/wiki/Stack-Trace-API
