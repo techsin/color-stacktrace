@@ -1,0 +1,32 @@
+{
+  "name": "color-stacktrace",
+  "version": "1.0.2",
+  "description": "Highlight your files in stack trace over files in node_modules or native events. Helps in debugging by preventing from focusing on useless information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techsin/color-stacktrace.git"
+  },
+  "keywords": [
+    "debugging",
+    "stack",
+    "trace",
+    "nodejs",
+    "node_modules",
+    "hide",
+    "highlight"
+  ],
+  "author": "techsin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techsin/color-stacktrace/issues"
+  },
+  "homepage": "https://github.com/techsin/color-stacktrace#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "colors": "^1.3.2"
+  }
+}
